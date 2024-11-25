@@ -1,13 +1,11 @@
 body {
-
-    margin:0 auto;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     font-weight: normal;
-    line-height: 1.6;
+    line-height: 1;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 center {
@@ -53,7 +51,7 @@ h5 {
 
 h6 {
     font-size: 36px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     color: #525255;
 }
 
@@ -65,12 +63,21 @@ p {
     margin-bottom: 20px;
 }
 
+p1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #939594;
+    margin-bottom: 20px;
+}
+
 b {
     font-weight: bold;
 }
 
 i {
     font-weight: italic;
+    margin-bottom: 20px;
 }
 
 #myBtn {
