@@ -1,3 +1,7 @@
+function toggleDarkMode() {
+  document.body.classList.toggle('dark-mode');
+}
+
 const mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {scrollFunction();};
