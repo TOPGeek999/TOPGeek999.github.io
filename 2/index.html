@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimetras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="multimeter">
+        <h1>Multimetras</h1>
+        <div class="display">
+            <span id="reading">0.00</span>
+            <span id="unit">V</span>
+        </div>
+        <div class="mode-selector">
+            <button class="mode" data-unit="V">Įtampa (V)</button>
+            <button class="mode" data-unit="A">Srovė (A)</button>
+            <button class="mode" data-unit="Ω">Varža (Ω)</button>
+        </div>
+        <div class="controls">
+            <button id="hold">HOLD</button>
+            <button id="min-max">MIN/MAX</button>
+            <button id="reset">RESET</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
